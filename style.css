@@ -41,7 +41,7 @@ nav {
     font-size: 1vw;
 }
 
-.center-nav p:hover{
+.center-nav p:hover {
     cursor: pointer;
     color: #12B59D;
     scale: 1.1;
@@ -311,6 +311,14 @@ button:hover {
     border-radius: 1vw;
 }
 
+.box-page-4:hover{
+    cursor: pointer;
+    box-shadow: 0 0 20px #0BAE94,
+        0 0 40px #0BAE94;
+    scale: 1.01;
+    transition: 0.5s;
+}
+
 .top-box {
     border-top-left-radius: 1vw;
     border-top-right-radius: 1vw;
@@ -367,7 +375,7 @@ button:hover {
     padding: 1vw 2vw;
 }
 
-.page-6{
+.page-6 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -376,7 +384,7 @@ button:hover {
     gap: 1vw;
 }
 
-.box-1-page-6{
+.box-1-page-6 {
     border-radius: 1vw;
     height: 12vw;
     width: 22vw;
@@ -384,13 +392,13 @@ button:hover {
     display: flex;
 }
 
-.left-img-page-6{
+.left-img-page-6 {
     height: 100%;
-    padding:1vw;
+    padding: 1vw;
     width: 40%;
 }
 
-.left-img-page-6 img{
+.left-img-page-6 img {
     border: 1px solid #0bae9357;
     padding: 1vw;
     border-radius: 100%;
@@ -399,7 +407,7 @@ button:hover {
     justify-self: center;
 }
 
-.right-img-page-6{
+.right-img-page-6 {
     font-family: 'Orbitron', sans-serif;
     display: flex;
     align-items: flex-start;
@@ -410,20 +418,22 @@ button:hover {
     padding: 1vw;
 }
 
-.right-img-page-6 h3{
+.right-img-page-6 h3 {
     font-size: 2vw;
     color: #0BAE94;
 }
-.right-img-page-6 h5{
+
+.right-img-page-6 h5 {
     font-size: 1.5vw;
     color: rgba(255, 255, 255, 0.596);
 }
-.right-img-page-6 p{
+
+.right-img-page-6 p {
     font-size: 1.2vw;
     color: rgba(255, 255, 255, 0.233);
 }
 
-.page-7{
+.page-7 {
     display: flex;
     align-items: center;
     padding: 3vw;
@@ -438,7 +448,7 @@ button:hover {
 
 }
 
-.box-2-page-7{
+.box-2-page-7 {
     display: flex;
 }
 
@@ -457,35 +467,47 @@ button:hover {
 }
 
 
-.innnr-1 img{
+.innnr-1 img {
     height: 3vw;
 }
 
-.flex-img{
+.flex-img {
     display: flex;
     gap: 2vw;
 }
 
 
-.flex-img img{
+.flex-img img {
     height: 4vw;
     border: 1px solid #0bae9363;
     padding: 1vw;
     border-radius: 100%;
 }
 
-.innnr-2{
+.flex-img img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.innnr-2 {
     display: flex;
     flex-direction: column;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1.2vw;
     gap: 1vw;
     margin-left: 2vw;
     color: rgba(255, 255, 255, 0.521);
 }
 
-.page-8{
-    color:rgba(255, 255, 255, 0.521) ;
+.innnr-2 p:hover{
+    cursor: pointer;
+    scale: 1.01;
+    transition: 0.3s;
+    color: #12B59D;
+}
+
+.page-8 {
+    color: rgba(255, 255, 255, 0.521);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -494,9 +516,10 @@ button:hover {
     padding: 0.5vw 4vw;
 }
 
-.page-8-2{
+.page-8-2 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 3vw;
+
 }
